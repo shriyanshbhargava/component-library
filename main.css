@@ -1,0 +1,423 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 1.65rem;
+  padding-bottom: 1.65rem;
+  padding-left: 5rem;
+  font-size: larger;
+  position: fixed;
+  background-color: #012622;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+a:link {
+  color: #ece5f0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ece5f0;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  color: #ece5f0;
+  text-decoration: none;
+}
+
+.menu {
+  position: absolute;
+  right: 10rem;
+  padding-top: 20px;
+}
+
+.menu1,
+.menu2 {
+  padding: 5px;
+}
+
+.name {
+  font-size: 2.5rem;
+  width: 20rem;
+  color: #ece5f0;
+}
+
+.tag-section {
+  margin-top: 7.1rem;
+  background-color: #003b36;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+}
+
+.list-item {
+  padding: 1.4rem;
+  text-align: center;
+  outline: 0.5px solid white;
+}
+
+.user-manual {
+  margin-top: 7rem;
+  background-color: #003b36;
+  width: 25%;
+  height: 100%;
+  top: 10rem;
+  left: 10rem;
+}
+
+.head {
+  margin-left: 25rem;
+  margin-top: 7.5rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.alert-head {
+  display: flex;
+  justify-content: center;
+  margin-left: 45rem;
+  margin-top: 7.5rem;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* buttons page started */
+.container {
+  width: 55rem;
+  display: grid;
+  grid-template-rows: repeat(3, 0.25fr);
+  grid-template-columns: repeat(3, 0.25fr);
+  margin-left: 23rem;
+  padding: 1.25rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c4e9dc;
+  width: 15rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+.button {
+  margin: 1rem 0rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(10, 0, 0);
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.b1 {
+  padding: 0.5rem 1rem;
+  width: 8rem;
+}
+.b2 {
+  padding: 0.5rem 1.5rem;
+  width: 10rem;
+}
+.b3 {
+  padding: 0.5rem 2rem;
+  width: 12rem;
+}
+
+.primary {
+  background-color: #335756;
+  color: #dadff7;
+}
+.primary:hover {
+  background-color: #232c33;
+  transition: 0.3s;
+}
+
+.secondary {
+  background-color: #232c33;
+  transition: 0.3s;
+  color: #dadff7;
+}
+.secondary:hover {
+  background-color: #335756;
+}
+
+.danger {
+  background-color: #b91111;
+  transition: 0.3s;
+  color: #dadff7;
+}
+.danger:hover {
+  background-color: #b65311;
+}
+
+.danger-1 {
+  background-color: #b91111;
+  transition: 0.3s;
+  color: #dadff7;
+}
+
+.danger:hover {
+  background-color: #b65311;
+}
+
+/* ----------------------buttons page ended--------------------- */
+
+.imgSqrSmall {
+  height: 150px;
+  width: 150px;
+}
+
+.imgSqrMedium {
+  height: 200px;
+  width: 200px;
+}
+.imgSqrLarge {
+  height: 250px;
+  width: 250px;
+}
+.imgCrclSmall {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.imgCrclMedium {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.imgCrclLarge {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+/* --------------------------avtar ended------------------------ */
+
+.card-container {
+  background-color: #c4e9dc;
+  display: grid;
+  grid-template-rows: repeat(1, 0.25fr);
+  grid-template-columns: repeat(3, 0.25fr);
+  margin-left: 25rem;
+  padding: 3rem;
+}
+
+.card-item {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  margin: 1rem;
+}
+.card-item:hover {
+  box-shadow: 0px 10px 20px 2px black;
+  transition: 0.5s;
+}
+
+.card-img-1 {
+  height: 17rem;
+  width: 15rem;
+}
+
+.item-details {
+  padding: 1rem;
+}
+
+.item-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.item-desc {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.mrp {
+  padding-left: 0.25rem;
+  text-decoration: line-through;
+}
+
+.off {
+  padding-left: 0.5rem;
+}
+
+.cardbtn {
+  padding: 10px;
+  margin: 5px;
+}
+
+.card-img-2 {
+  display: flex;
+
+  height: 100%;
+  width: 15rem;
+}
+
+.item-details-2 {
+  position: absolute;
+  margin-top: 18rem;
+  padding: 1rem;
+}
+
+.cancel-icon {
+  position: absolute;
+  width: 1.5rem;
+  right: 23.5rem;
+  top: 18.5rem;
+  padding: 5px;
+}
+
+.cancel-icon:hover {
+  width: 1.75rem;
+}
+
+/* --------card page ended-------- */
+
+.alert-container {
+  background-color: #c4e9dc;
+  width: 100%;
+  margin-left: 24rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.alrt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  width: auto;
+}
+
+.bt1 {
+  border: 3px solid rgb(53, 91, 148);
+  color: rgb(53, 91, 148);
+}
+
+.bt2 {
+  border: 3px solid rgba(235, 188, 58, 0.815);
+  color: rgb(235, 188, 58);
+}
+
+.bt3 {
+  border: 3px solid rgb(224, 30, 30);
+  color: rgba(224, 30, 30, 0.822);
+}
+
+.bt4 {
+  border: 3px solid rgb(131, 32, 32);
+  color: rgb(131, 32, 32);
+}
+/* alert page ended */
+
+.nav {
+  display: flex;
+  padding: 0.5rem;
+  color: white;
+  width: 55rem;
+}
+
+.nav-name {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+  width: 10rem;
+  color: #ece5f0;
+}
+
+.social-div {
+  position: relative;
+  left: 23rem;
+}
+
+.social {
+  padding: 1rem;
+  width: 35px;
+  right: 20rem;
+}
+
+.n1 {
+  background-color: #4e837e;
+}
+
+.n2 {
+  background-color: #5d5e75;
+}
+
+.n3 {
+  background-color: #19423e;
+}
+
+.nav-container {
+  margin-left: 24rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+/* type page start */
+
+.type-container {
+  width: 55rem;
+  margin-left: 23rem;
+  padding: 1rem;
+  background-color: #c4e9dc;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+.h2 {
+  font-size: 3rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+.h3 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+.h4 {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+.h5 {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+.h6 {
+  font-size: 0.5rem;
+  padding: 0.5rem;
+  margin: 0;
+}
